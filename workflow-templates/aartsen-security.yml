@@ -1,0 +1,26 @@
+name: Security
+
+on:
+  push:
+    branches: [$default-branch]
+  pull_request:
+    branches: [$default-branch]
+  schedule:
+    - cron: "17 3 * * 1" # weekly, Monday 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  security:
+    uses: aartsengroup/shared-workflows/.github/workflows/security-scan.yml@v1
+    permissions:
+      contents: read
+      security-events: write
+      actions: read
+      pull-requests: write
+    # Optional overrides, see the reusable workflow for all inputs:
+    # with:
+    #   codeql-languages: '["python","actions"]'
+    #   trivy-fail: true

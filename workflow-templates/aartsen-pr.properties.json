@@ -1,0 +1,6 @@
+{
+  "name": "Aartsen PR checks",
+  "description": "Conventional PR titles, path and size labels, and Markdown/YAML/Actions linting using the shared Aartsen PR workflow.",
+  "iconName": "octicon git-pull-request",
+  "categories": ["Automation"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Aartsen security scan",
+  "description": "CodeQL, dependency review, Gitleaks and Trivy using the shared Aartsen security workflow.",
+  "iconName": "octicon shield-check",
+  "categories": ["Code Scanning", "Security"]
+}

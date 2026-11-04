@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/aartsengroup/.github/blob/main/SECURITY.md
+    about: Please do not report security issues publicly. Follow our security policy instead.
+  - name: Other questions
+    url: https://github.com/aartsengroup/.github/blob/main/SUPPORT.md
+    about: Where to go for questions that are not bugs or feature requests.
