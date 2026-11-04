@@ -13,7 +13,7 @@ Organisation-wide defaults for the **aartsengroup** GitHub organisation.
 | --- | --- |
 | `profile/README.md` | Public organisation profile shown on github.com/aartsengroup |
 | `SECURITY.md`, `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SUPPORT.md` | Default community health files for every repo that does not have its own |
-| `ISSUE_TEMPLATE/`, `PULL_REQUEST_TEMPLATE.md` | Default issue forms and PR template |
+| `.github/ISSUE_TEMPLATE/`, `PULL_REQUEST_TEMPLATE.md` | Default issue forms and PR template |
 | `workflow-templates/` | Starter workflows shown under **Actions → New workflow** in org repos |
 
 ## Workflow templates
